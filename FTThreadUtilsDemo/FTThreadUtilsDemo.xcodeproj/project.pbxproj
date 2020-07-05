@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E16F478A24B2062400BF0E23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F478924B2062400BF0E23 /* AppDelegate.m */; };
+		E16F478D24B2062400BF0E23 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F478C24B2062400BF0E23 /* SceneDelegate.m */; };
+		E16F479024B2062400BF0E23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F478F24B2062400BF0E23 /* ViewController.m */; };
+		E16F479324B2062400BF0E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16F479124B2062400BF0E23 /* Main.storyboard */; };
+		E16F479524B2062400BF0E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16F479424B2062400BF0E23 /* Assets.xcassets */; };
+		E16F479824B2062400BF0E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16F479624B2062400BF0E23 /* LaunchScreen.storyboard */; };
+		E16F479B24B2062400BF0E23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F479A24B2062400BF0E23 /* main.m */; };
+		E16F47AD24B2063600BF0E23 /* TaskOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F47A624B2063600BF0E23 /* TaskOperator.m */; };
+		E16F47AE24B2063600BF0E23 /* GCDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F47A724B2063600BF0E23 /* GCDHelper.m */; };
+		E16F47AF24B2063600BF0E23 /* TaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F47A824B2063600BF0E23 /* TaskManager.m */; };
+		E16F47B024B2063600BF0E23 /* DispatchQueuePool.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F47A924B2063600BF0E23 /* DispatchQueuePool.m */; };
+		E16F47B124B2063600BF0E23 /* CustomOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F47AA24B2063600BF0E23 /* CustomOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E16F478524B2062400BF0E23 /* FTThreadUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTThreadUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16F478824B2062400BF0E23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E16F478924B2062400BF0E23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E16F478B24B2062400BF0E23 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E16F478C24B2062400BF0E23 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E16F478E24B2062400BF0E23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E16F478F24B2062400BF0E23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E16F479224B2062400BF0E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E16F479424B2062400BF0E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E16F479724B2062400BF0E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E16F479924B2062400BF0E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16F479A24B2062400BF0E23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E16F47A224B2063600BF0E23 /* TaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskManager.h; sourceTree = "<group>"; };
+		E16F47A324B2063600BF0E23 /* TaskDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDefine.h; sourceTree = "<group>"; };
+		E16F47A424B2063600BF0E23 /* CustomOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOperation.h; sourceTree = "<group>"; };
+		E16F47A524B2063600BF0E23 /* DispatchQueuePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueuePool.h; sourceTree = "<group>"; };
+		E16F47A624B2063600BF0E23 /* TaskOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskOperator.m; sourceTree = "<group>"; };
+		E16F47A724B2063600BF0E23 /* GCDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDHelper.m; sourceTree = "<group>"; };
+		E16F47A824B2063600BF0E23 /* TaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskManager.m; sourceTree = "<group>"; };
+		E16F47A924B2063600BF0E23 /* DispatchQueuePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueuePool.m; sourceTree = "<group>"; };
+		E16F47AA24B2063600BF0E23 /* CustomOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomOperation.m; sourceTree = "<group>"; };
+		E16F47AB24B2063600BF0E23 /* TaskOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskOperator.h; sourceTree = "<group>"; };
+		E16F47AC24B2063600BF0E23 /* GCDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDHelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E16F478224B2062400BF0E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E16F477C24B2062400BF0E23 = {
+			isa = PBXGroup;
+			children = (
+				E16F478724B2062400BF0E23 /* FTThreadUtilsDemo */,
+				E16F478624B2062400BF0E23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E16F478624B2062400BF0E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E16F478524B2062400BF0E23 /* FTThreadUtilsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E16F478724B2062400BF0E23 /* FTThreadUtilsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E16F478824B2062400BF0E23 /* AppDelegate.h */,
+				E16F478924B2062400BF0E23 /* AppDelegate.m */,
+				E16F478B24B2062400BF0E23 /* SceneDelegate.h */,
+				E16F478C24B2062400BF0E23 /* SceneDelegate.m */,
+				E16F478E24B2062400BF0E23 /* ViewController.h */,
+				E16F478F24B2062400BF0E23 /* ViewController.m */,
+				E16F47A124B2063600BF0E23 /* Classes */,
+				E16F479124B2062400BF0E23 /* Main.storyboard */,
+				E16F479424B2062400BF0E23 /* Assets.xcassets */,
+				E16F479624B2062400BF0E23 /* LaunchScreen.storyboard */,
+				E16F479924B2062400BF0E23 /* Info.plist */,
+				E16F479A24B2062400BF0E23 /* main.m */,
+			);
+			path = FTThreadUtilsDemo;
+			sourceTree = "<group>";
+		};
+		E16F47A124B2063600BF0E23 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E16F47A324B2063600BF0E23 /* TaskDefine.h */,
+				E16F47A724B2063600BF0E23 /* GCDHelper.m */,
+				E16F47AC24B2063600BF0E23 /* GCDHelper.h */,
+				E16F47AB24B2063600BF0E23 /* TaskOperator.h */,
+				E16F47A624B2063600BF0E23 /* TaskOperator.m */,
+				E16F47A224B2063600BF0E23 /* TaskManager.h */,
+				E16F47A824B2063600BF0E23 /* TaskManager.m */,
+				E16F47A424B2063600BF0E23 /* CustomOperation.h */,
+				E16F47AA24B2063600BF0E23 /* CustomOperation.m */,
+				E16F47A524B2063600BF0E23 /* DispatchQueuePool.h */,
+				E16F47A924B2063600BF0E23 /* DispatchQueuePool.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E16F478424B2062400BF0E23 /* FTThreadUtilsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E16F479E24B2062400BF0E23 /* Build configuration list for PBXNativeTarget "FTThreadUtilsDemo" */;
+			buildPhases = (
+				E16F478124B2062400BF0E23 /* Sources */,
+				E16F478224B2062400BF0E23 /* Frameworks */,
+				E16F478324B2062400BF0E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTThreadUtilsDemo;
+			productName = FTThreadUtilsDemo;
+			productReference = E16F478524B2062400BF0E23 /* FTThreadUtilsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E16F477D24B2062400BF0E23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = fltx;
+				TargetAttributes = {
+					E16F478424B2062400BF0E23 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E16F478024B2062400BF0E23 /* Build configuration list for PBXProject "FTThreadUtilsDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E16F477C24B2062400BF0E23;
+			productRefGroup = E16F478624B2062400BF0E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E16F478424B2062400BF0E23 /* FTThreadUtilsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E16F478324B2062400BF0E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16F479824B2062400BF0E23 /* LaunchScreen.storyboard in Resources */,
+				E16F479524B2062400BF0E23 /* Assets.xcassets in Resources */,
+				E16F479324B2062400BF0E23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E16F478124B2062400BF0E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16F479024B2062400BF0E23 /* ViewController.m in Sources */,
+				E16F47AD24B2063600BF0E23 /* TaskOperator.m in Sources */,
+				E16F47AF24B2063600BF0E23 /* TaskManager.m in Sources */,
+				E16F47AE24B2063600BF0E23 /* GCDHelper.m in Sources */,
+				E16F478A24B2062400BF0E23 /* AppDelegate.m in Sources */,
+				E16F47B024B2063600BF0E23 /* DispatchQueuePool.m in Sources */,
+				E16F479B24B2062400BF0E23 /* main.m in Sources */,
+				E16F478D24B2062400BF0E23 /* SceneDelegate.m in Sources */,
+				E16F47B124B2063600BF0E23 /* CustomOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E16F479124B2062400BF0E23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16F479224B2062400BF0E23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E16F479624B2062400BF0E23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E16F479724B2062400BF0E23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E16F479C24B2062400BF0E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E16F479D24B2062400BF0E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E16F479F24B2062400BF0E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FTThreadUtilsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ft.thread.FTThreadUtilsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E16F47A024B2062400BF0E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FTThreadUtilsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ft.thread.FTThreadUtilsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E16F478024B2062400BF0E23 /* Build configuration list for PBXProject "FTThreadUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16F479C24B2062400BF0E23 /* Debug */,
+				E16F479D24B2062400BF0E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E16F479E24B2062400BF0E23 /* Build configuration list for PBXNativeTarget "FTThreadUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16F479F24B2062400BF0E23 /* Debug */,
+				E16F47A024B2062400BF0E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E16F477D24B2062400BF0E23 /* Project object */;
+}
